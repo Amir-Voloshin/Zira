@@ -13,7 +13,7 @@ Downloaded and imported the provided data and saved in train, validate, and test
 Trained a model on the training data using efficientdet_lite0, a batch size of 4, and the default number of epochs (50).
 
 ### Part 3
-Validated the trained model, Obtained COCO Metrics from and validation data.
+Validated the trained model, obtained COCO Metrics from and validation data.
 
 ### Part 4
 Compiled and saved my model as 'boards.tflite'.
