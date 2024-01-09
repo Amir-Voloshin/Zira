@@ -22,9 +22,9 @@ Compiled and saved my model as 'boards.tflite'.
 Applied model quantization, configuring my model to float16 to improve performance. Additionally, I validated my model with the validation set and saved as 'quant.tflite'.
 
 ### Part 6
-Performed model detection on the test set and 'video3.mp4'. Detection on the test set outputs a photo with a red rectangle surrounding the detected board for each photo in the test set while detection on the video has a green trailing rectangle among all boards which pass by. Detected images from test set are in the notebook and the video detection is in 'output_video.mp4'
+Performed model detection on the test set and 'video3.mp4'. Detection on the test set outputs a photo with a red rectangle surrounding the detected board for each photo in the test set while detection on the video has a green trailing rectangle among all boards which pass by. Detected images from test set are in the notebook and the video detection is in 'output_video.mp4'.
 
 ### Extra
 I decide to train and quantized an additional model with more epochs to achieve higher performance metrics (COCO), trained a new model with a batch size of 4 and 200 epochs. Code for this portion is in 'train_long.py'.
-In addition I created a new video where this extra model is detecting boards, video saved as 'output_video_long.mp4'
+In addition I created a new video where this extra model is detecting boards, video saved as 'output_video_long.mp4'.
 
